@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imgAnh"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/vi1" />
+
+
+        <TextView
+            android:id="@+id/tenmon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:text="Canh chua dua leo bắp bò"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyên liệu"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nguyenlieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Name"
+            android:layout_alignStart="@+id/Name"
+            android:layout_below="@+id/Name"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="10dp"
+            android:text="nguyenlieu"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/GioiThieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cách Làm"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cachthuchien"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/Name"
+            android:layout_alignStart="@+id/Name"
+            android:layout_below="@+id/Name"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="10dp"
+            android:text="– Bắp bò cắt lát mỏng 3 - 4cm (để khi nấu thịt sẽ mau mềm). Cà chua cắt múi cau, dưa leo cắt làm tư, bỏ ruột, cắt xéo..\n \n- Bắc nồi lên bếp, thêm 1 muỗng dầu để phi thơm tỏi sau đó trút phần bắp bò vào xào trong 15 phút tiếp đến là cà chua thái. \n\n–Khi bắp bò và cà chua đã mềm thì cho dưa leo vào xào chung.\n\n - Thêm 2 tô nước nấu trên lửa trung bình, khi canh sôi bạn nhớ vớt bọt bỏ đi. Nêm lại gia vị cho vừa ăn và tắt bếp. Cho canh chua ra tô rắc thêm hành lá, ngò rí."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
